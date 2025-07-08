@@ -29,7 +29,7 @@ export default function FlowersApp({ onClose }) {
     <div className="flowers-modal">
         
       <div className="flowers-header">
-        <h3>Chiku's Favorite Flowers 🌸</h3>
+        <h3>Chiku's Favourite Flowers 🌸</h3>
         <button onClick={onClose}>×</button>
       </div>
       <div className="flowers-grid">
