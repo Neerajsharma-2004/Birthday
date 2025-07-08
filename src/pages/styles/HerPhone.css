@@ -122,3 +122,13 @@
     font-size: 0.75rem;
   }
 }
+.home-screen, .home-screen * {
+  color: #bbb0b0;
+}
+.home-screen {
+  color: #bbb0b0;
+}
+
+.home-screen * {
+  color: inherit !important;
+}
