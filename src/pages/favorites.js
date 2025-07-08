@@ -112,7 +112,7 @@ const systemApps = [
     label: "Settings",
     title: "Settings",
     icon: "/assets/icons/setting.png",
-    image: "/assets/setting.jpg",
+    image: "/assets/setting.png",
     description: "idk how to make ts",
   },
   {
