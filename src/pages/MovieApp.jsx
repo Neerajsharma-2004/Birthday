@@ -19,7 +19,7 @@ export default function MovieApp({ onClose }) {
     <div className="movie-app">
       <div className="movie-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Movies</h3>
+        <h3>Chiku's Favourite Movies</h3>
       </div>
 
       <div className="movie-list">
