@@ -112,8 +112,7 @@ const systemApps = [
     label: "Settings",
     title: "Settings",
     icon: "/assets/icons/setting.png",
-    image: "/assets/images/settings.jpg",
-    description: "Her preferences and quirks.",
+    description: "idk how to make ts",
   },
   {
     label: "Lock",
