@@ -29,7 +29,7 @@ export default function ManhwaApp({ onClose }) {
     <div className="manhwa-app">
       <div className="manhwa-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Manhwas</h3>
+        <h3>Chiku's Favourite Manhwas</h3>
       </div>
 
       <div className="manhwa-list">
