@@ -342,7 +342,7 @@ export default function Poems() {
         >
           {poems.map((poem, idx) => (
             <div className="page" key={idx}>
-              {idx === 0 && <div className="tap-hint">👆 Tap to open</div>}
+              {idx === 0 && <div className="tap-hint">👆 Swipe to open</div>}
               {poem.title && <h2>{poem.title}</h2>}
               {poem.text && <pre>{poem.text}</pre>}
               {poem.image && <img src={poem.image} alt="poem art" className="poem-img" />}
