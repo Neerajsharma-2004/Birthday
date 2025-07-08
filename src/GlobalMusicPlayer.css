@@ -1,0 +1,19 @@
+.global-music-player {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.705);
+  padding: 10px 16px;
+  border-radius: 12px;
+  color: white;
+  font-family: monospace;
+}
+
+.global-music-player button {
+  background: none;
+  color: #B3F2F4;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

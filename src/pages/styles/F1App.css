@@ -1,0 +1,150 @@
+.f1-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  overflow-y: auto;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.f1-header {
+  padding: 14px 16px;
+  background: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.f1-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.driver-card {
+  display: flex;
+  background: #1b1b1b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.driver-card:hover {
+  transform: translateY(-5px);
+}
+
+.driver-card img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.driver-info {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.driver-info h4 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  color: #f1c40f;
+}
+
+.driver-info p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.quote {
+  font-style: italic;
+  color: #aaa;
+  margin-top: 8px;
+}
+.driver-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+.popup-content {
+  width: 90%;
+  max-width: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+  animation: fadeSlideIn 0.4s ease-out;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 24px;
+  backdrop-filter: blur(3px);
+}
+
+.popup-overlay h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  color: #f1c40f;
+}
+
+.popup-overlay ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.popup-overlay li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.popup-overlay p {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.popup-overlay button {
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: none;
+  background: #f1c40f;
+  color: #000;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

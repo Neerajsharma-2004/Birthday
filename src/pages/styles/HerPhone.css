@@ -1,0 +1,160 @@
+.phone-screen {
+  height: 680px;
+  width: 340px;
+  background: linear-gradient(to bottom right, #fdf0f0, #ffe8e8);
+  border-radius: 40px;
+  padding: 20px 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 40px auto;
+  border: 12px solid #222;
+  position: relative;
+}
+
+.phone-screen::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background: #333;
+  border-radius: 10px;
+}
+
+.status-bar {
+  color: #444;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.outer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(circle at center, #303030 0%, #141414 40%, #000 100%);
+}
+
+.phone-screen {
+  height: 680px;
+  width: 340px;
+  background: linear-gradient(145deg, #1a3a30, #245045, #1a3a30);
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 20px 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 40px auto;
+  border: 12px solid #222;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.phone-screen.unlocking {
+  transform: translateY(-100%);
+}
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 20px;
+}
+
+.home-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(145deg, #1a3a30, #245045, #1a3a30);
+
+  color: #fff;
+}
+
+.dock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+.home-screen, .home-screen * {
+  color: #bbb0b0;
+}
+.home-screen {
+  color: #bbb0b0;
+}
+
+.home-screen * {
+  color: inherit !important;
+}
+.phone-screen.relocking {
+  transform: translateY(100%);
+  transition: transform 0.6s ease-in-out;
+}
+
+@media (max-width: 700px) {
+  .phone-screen {
+    width: 95vw;
+    height: 70vh;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 520px) {
+  .phone-screen {
+    width: 82vw;
+    height: 80vh;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: 10px solid #222;
+  }
+
+  .app-grid {
+    grid-template-columns: repeat(3, 70px);
+    gap: 14px;
+  }
+
+  .dock {
+    gap: 3.5px;
+  }
+  .dock .app-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.dock .app-icon p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+  .status-bar {
+    font-size: 0.75rem;
+  }
+}

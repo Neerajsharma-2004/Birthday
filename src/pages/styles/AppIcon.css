@@ -1,0 +1,25 @@
+.app-icon {
+  width: 70px;
+  height: 90px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.app-icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.app-icon span {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 5px;
+  color: #333;
+}
+
+.app-icon:hover {
+  transform: scale(1.1);
+}

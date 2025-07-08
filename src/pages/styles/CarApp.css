@@ -1,0 +1,95 @@
+.car-app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 30px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.car-header {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.car-header button {
+  font-size: 20px;
+  margin-right: 12px;
+  background: none;
+  border: none;
+  color: #f1c40f;
+  cursor: pointer;
+}
+
+.car-header h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.car-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.car-list::-webkit-scrollbar {
+  display: none;
+}
+
+.car-card {
+  background: #1a1a1a;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(255, 136, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-3px);
+}
+
+.car-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.car-info {
+  padding: 12px 14px;
+}
+
+.car-info h4 {
+  margin: 0;
+  font-size: 17px;
+  color: #f39c12;
+}
+
+.car-info p {
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 6px;
+}
+
+.explore-btn {
+  margin-top: 10px;
+  background: #f39c12;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #111;
+  font-size: 13px;
+  cursor: pointer;
+}
