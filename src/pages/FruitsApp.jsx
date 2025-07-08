@@ -30,7 +30,7 @@ export default function FruitsApp({ onClose }) {
     <div className="fruits-swipe-app">
       <div className="fruits-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Fruits</h3>
+        <h3>Chiku's Favourite Fruits</h3>
       </div>
 
       <div className="fruit-swipe-card">
