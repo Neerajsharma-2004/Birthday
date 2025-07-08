@@ -49,7 +49,7 @@ export default function F1App({ onClose }) {
   return (
     <div className="f1-modal">
       <div className="f1-header">
-        <h3>Chiku's F1 Favorites 🏎️</h3>
+        <h3>Chiku's F1 Favourites 🏎️</h3>
         <button onClick={onClose}>×</button>
       </div>
 
