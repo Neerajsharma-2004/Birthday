@@ -66,7 +66,7 @@ export default function HerPhone() {
     />
     <div className="lock-time">{`${hours}:${minutes}`}</div>
     <div className="lock-date">{formattedDate}</div>
-    <div className="swipe-text">⬆️ Swipe Up to Unlock</div>
+    <div className="swipe-text">⬆️ Click to Unlock</div>
   </div>
 )}
 
