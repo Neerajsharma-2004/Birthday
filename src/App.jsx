@@ -10,11 +10,6 @@ import GlobalMusicPlayer from './GlobalMusicPlayer';
 const assetsToPreload = [
   "/assets/lockscreen-bg.mp4",
   "/assets/song.mp3",
-  "/assets/movies/chennai.mp4",
-  "/assets/movies/yjhd.mp4",
-  "/assets/anime/ao-haru.mp4",
-  "/assets/anime/blue-lock.mp4",
-  "/assets/anime/jujutsu-kaisen.mp4",
   "/assets/songs/am.mp3",
   "/assets/songs/art.mp3",
   "/assets/songs/monkey.mp3",
