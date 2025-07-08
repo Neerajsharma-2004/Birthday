@@ -31,7 +31,7 @@ export default function BandApp({ onClose }) {
   return (
     <div className="band-modal">
       <div className="band-header">
-        <h3>Favorites 🎧</h3>
+        <h3>Favourites 🎧</h3>
         <button onClick={onClose}>×</button>
       </div>
 
