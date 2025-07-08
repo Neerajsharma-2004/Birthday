@@ -13,14 +13,14 @@ const manhwas = [
     description: "Two enemies. One pact.\nA twisted web of love and war."
   },
   {
-    title: "Omniscient Reader’s Viewpoint (ORV)",
+    title: "Omniscient Reader’s Viewpoint",
     image: "/assets/manhwa/orv.jpg",
     description: "When fiction becomes reality,\nhe becomes the only hope."
   },
   {
     title: "The Greatest Estate Developer",
     image: "/assets/manhwa/estate.jpg",
-    description: "A genius architect stuck in a fantasy world?\nLet him cook."
+    description: "A genius architect stuck in a\nfantasy world?\nLet him cook."
   }
 ];
 
