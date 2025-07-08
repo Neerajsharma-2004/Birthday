@@ -24,7 +24,7 @@ export default function AnimeApp({ onClose }) {
     <div className="anime-app">
       <div className="anime-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Anime</h3>
+        <h3>Chiku's Favourite Anime</h3>
       </div>
 
       <div className="anime-list">
