@@ -34,7 +34,7 @@ export default function CarApp({ onClose }) {
     <div className="car-app">
       <div className="car-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Cars</h3>
+        <h3>Chiku's Favourite Cars</h3>
       </div>
 
       <div className="car-list">
