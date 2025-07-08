@@ -3,19 +3,16 @@ import "./styles/AnimeApp.css";
 
 const animes = [
   {
-    title: "Ao Haru Ride",
-    youtubeId: "lgGUEEaIMaQ",
-    description: "A sweet and emotional school romance 💙"
+    
+    youtubeId: "lgGUEEaIMaQ"
   },
   {
-    title: "Blue Lock",
-    youtubeId: "ckEUVyKanhw",
-    description: "High-stakes football with intense rivalries ⚽🔥"
+    
+    youtubeId: "ckEUVyKanhw"
   },
   {
-    title: "Jujutsu Kaisen",
-    youtubeId: "2docezZl574",
-    description: "Curses, combat, and cool powers 💀💥"
+    
+    youtubeId: "2docezZl574"
   }
 ];
 
