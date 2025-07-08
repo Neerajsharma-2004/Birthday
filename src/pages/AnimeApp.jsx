@@ -4,17 +4,17 @@ import "./styles/AnimeApp.css";
 const animes = [
   {
     title: "Ao Haru Ride",
-    video: "/assets/anime/ao-haru.mp4",
+    youtubeId: "lgGUEEaIMaQ",
     description: "A sweet and emotional school romance 💙"
   },
   {
     title: "Blue Lock",
-    video: "/assets/anime/blue-lock.mp4",
+    youtubeId: "ckEUVyKanhw",
     description: "High-stakes football with intense rivalries ⚽🔥"
   },
   {
     title: "Jujutsu Kaisen",
-    video: "/assets/anime/jujutsu-kaisen.mp4",
+    youtubeId: "2docezZl574",
     description: "Curses, combat, and cool powers 💀💥"
   }
 ];
@@ -30,12 +30,17 @@ export default function AnimeApp({ onClose }) {
       <div className="anime-list">
         {animes.map((anime, index) => (
           <div className="anime-card" key={index}>
-            <video
-              src={anime.video}
-              controls
-              preload="metadata"
-              poster={`/assets/anime/thumb-${index + 1}.jpg`}
-            />
+            <div className="youtube-wrapper">
+              <iframe
+                width="100%"
+                height="215"
+                src={`https://www.youtube.com/embed/${anime.youtubeId}`}
+                title={anime.title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <div className="anime-info">
               <h4>{anime.title}</h4>
               <p>{anime.description}</p>
