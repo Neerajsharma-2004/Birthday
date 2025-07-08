@@ -24,7 +24,7 @@ export default function FoodApp({ onClose }) {
     <div className="food-app">
       <div className="food-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Foods</h3>
+        <h3>Chiku's Favourite Foods</h3>
       </div>
 
       <div className="food-list">
