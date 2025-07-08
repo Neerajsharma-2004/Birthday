@@ -49,7 +49,7 @@ export default function CharacterApp({ onClose }) {
     <div className="character-app">
       <div className="character-header">
         <button onClick={onClose}>←</button>
-        <h3>Chiku's Favorite Characters</h3>
+        <h3>Chiku's Favourite Characters</h3>
       </div>
 
       <div className="character-scroll" ref={scrollRef}>
