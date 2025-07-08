@@ -29,7 +29,7 @@ export default function ChocolateApp({ onClose }) {
     <div className="choco-app">
       <div className="choco-header">
         <button onClick={onClose}>←</button>
-        <h3>Her Favorite Chocolates</h3>
+        <h3>Her Favourite Chocolates</h3>
       </div>
 
       <div className="choco-grid">
