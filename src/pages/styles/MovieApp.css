@@ -57,10 +57,21 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.movie-card video {
+/* YouTube video container */
+.video-wrapper {
+  position: relative;
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  background: #000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -78,4 +89,15 @@
   font-size: 13px;
   color: #ccc;
   margin-top: 6px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .movie-info h4 {
+    font-size: 16px;
+  }
+
+  .movie-info p {
+    font-size: 12px;
+  }
 }
