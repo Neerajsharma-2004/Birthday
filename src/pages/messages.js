@@ -74,6 +74,14 @@ const messages = [
       { text: "HAPPIEST BIRTHDAY LITTLE SIS 💙🎂✨ MAY ALL UR WISHES COME TRUE AND U LIVE A LONG AND HEALTHY LIFE", time: "00:01 AM" },
     ],
   },
+  {
+    id: 9,
+    name: "Petal 💅",
+    profile: "/assets/profiles/petal.jpg",
+    messages: [
+      { text: "Wishing you a very happy birthday pretty pretty lady 🗣️🩷 heavenly feels to be surrounded by beautiful ppl like u 😝", time: "00:01 AM" },
+    ],
+  },
 ];
 
 export default messages;
